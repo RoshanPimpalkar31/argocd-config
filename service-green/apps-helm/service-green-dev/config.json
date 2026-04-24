@@ -1,0 +1,10 @@
+{
+  "appName": "my-app",
+  "environment": "dev",
+  "namespace": "dev",
+  "cluster": "minikube",
+  "repoURL": "https://gitlab.com/<your-group>/cd-helm-repo.git",
+  "chartPath": "charts/my-app",
+  "targetRevision": "develop", # Argo CD will track the 'develop' branch of cd-helm-repo
+  "valuesFile": "values-dev.yaml"
+}
